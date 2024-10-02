@@ -12,7 +12,16 @@ function App() {
       <Menu/>
       <div className="container">
         {/*<Banner/>*/}
-        <Cards/>
+        <div className="row">
+          <Cards 
+            titulo="Estacionamiento Medido" 
+            texto="Inicia el servicio de estacionamiento medido para tu vehículo" 
+            boton="Acceder"/>
+            <Cards 
+          titulo="Alquiler de Eco-Bicis" 
+          texto="Encuentra la bicileta más cercana y comienza a usarla" 
+          boton="Acceder"/>
+        </div>
         <Footer/>
       </div>
     </>

@@ -1,0 +1,17 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+.container{
+  margin-top: 70px;
+}
+.banner{
+  background: #2e2e2e;
+  height:100vh;
+  box-sizing: border-box;
+  padding-top: 30vh;
+  background-size: cover;
+  margin-bottom: 20px;
+  color:#f0f0f0;
+}
+

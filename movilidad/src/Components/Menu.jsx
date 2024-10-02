@@ -20,9 +20,9 @@ export default function Menu(){
                     Configuracion
                     </a>
                 <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Modificar datos</a></li>
-                    <li><a className="dropdown-item" href="#">Cambiar contraseña</a></li>
-                    <li><a className="dropdown-item" href="#">Salir</a></li>
+                    <li><a className="dropdown-item" href="#">Editar datos</a></li>
+                    <li><a className="dropdown-item" href="#">Modificar contraseña</a></li>
+                    <li><a className="dropdown-item" href="#">Cerrar Sesión</a></li>
                 </ul>
                 </li>
             </ul>

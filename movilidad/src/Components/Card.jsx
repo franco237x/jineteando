@@ -6,7 +6,7 @@ export default function Cards(props){
                 <div className="card-body">
                     <h5 className="card-title">{props.titulo}</h5>
                     <p className="card-text">{props.texto}</p>
-                    <a href="#" className="btn btn-primary">{props.boton}</a>
+                    <a xlinkHref="#" className="btn btn-primary">{props.boton}</a>
                 </div>
                 </div>
         </div>

@@ -4,6 +4,8 @@ import './App.css'
 import Menu from './Components/Menu'
 import Home from './Pages/Home'
 import Bikes from './Pages/Bikes'
+import NotFound from './Pages/NotFound'
+import Perfil from './Pages/Perfil'
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/bikes" element={<Bikes />} />
+          <Route path="/perfil/:id_perfil" element={<Perfil />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
 

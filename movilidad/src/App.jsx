@@ -1,29 +1,22 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Menu from './Components/Menu'
-import Banner from './Components/Banner'
-import Cards from './Components/Card'
-import Footer from './Components/Footer'
+import Home from './Pages/Home'
+import Bikes from './Pages/Bikes'
 
 function App() {
 
   return (
     <>
-      <Menu/>
-      <div className="container">
-        {/*<Banner/>*/}
-        <div className="row">
-          <Cards 
-            titulo="Estacionamiento Medido" 
-            texto="Inicia el servicio de estacionamiento medido para tu vehículo" 
-            boton="Acceder"/>
-            <Cards 
-          titulo="Alquiler de Eco-Bicis" 
-          texto="Encuentra la bicileta más cercana y comienza a usarla" 
-          boton="Acceder"/>
-        </div>
-        <Footer/>
-      </div>
+      <Router>
+        <Menu/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/bikes" element={<Bikes />} />
+        </Routes>
+      </Router>
+
     </>
   )
 }

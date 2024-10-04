@@ -7,13 +7,13 @@ export default function Home(){
                 <Card 
                     titulo="Estacionamiento Medido" 
                     texto="Inicia el servicio de estacionamiento medido para tu vehículo" 
-                    boton="Acceder"
+                    boton="Estacionar"
                     url="/parking"
                     />
                 <Card 
                     titulo="Alquiler de Eco-Bicis" 
                     texto="Encuentra la bicileta más cercana y comienza a usarla" 
-                    boton="Acceder"
+                    boton="Escanear Bicicleta"
                     url="/bikes"
                     />
                 </div>

@@ -1,11 +1,9 @@
 export default function Bikes(){
     return(
         <>
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-            <h1>Bicis</h1>
+            <div className="container">
+                <h1>Bicis</h1>
+            </div>
         </>
     )
 }

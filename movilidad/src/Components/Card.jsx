@@ -7,7 +7,7 @@ export default function Card(props){
                 <div className="card-body">
                     <h5 className="card-title">{props.titulo}</h5>
                     <p className="card-text">{props.texto}</p>
-                    <NavLink to="/bikes" className="btn btn-primary">{props.boton}</NavLink>
+                    <NavLink to={props.url} className="btn btn-primary">{props.boton}</NavLink>
                 </div>
                 </div>
         </div>

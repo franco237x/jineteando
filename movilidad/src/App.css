@@ -15,4 +15,10 @@
   margin-bottom: 20px;
   color:#f0f0f0;
 }
-
+#mapa, .leaflet-container{
+  margin-top:56px;
+  height:calc(100vh - 56px)
+}
+.escaner {
+  cursor: pointer;
+}

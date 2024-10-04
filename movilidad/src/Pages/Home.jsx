@@ -13,7 +13,7 @@ export default function Home(){
                 <Card 
                     titulo="Alquiler de Eco-Bicis" 
                     texto="Encuentra la bicileta más cercana y comienza a usarla" 
-                    boton="Escanear Bicicleta"
+                    boton="Escanear Bicicletas"
                     url="/bikes"
                     />
                 </div>

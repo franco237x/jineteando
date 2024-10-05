@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, useMap } from 'react-leaflet'
 import MapButton from './MapButton';
-const posadas = [-27.366666666667, -55.896944444444];
+const posadas = [-27.366666666667, -55.893];
 
 export default function Mapa(){
     return(

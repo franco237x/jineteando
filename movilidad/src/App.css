@@ -27,3 +27,19 @@
   margin-left: -24px;
   z-index: 400;
 }
+.leaflet-control-attribution{
+  display: none;
+}
+
+.profile-banner {
+  background: #80a5d4;
+  height: 30vh;
+}
+.profile {
+  background: #fff;
+  border-radius: 20px;
+  min-height: 100vh;
+  margin-top: calc(-30vh + 60px);
+  box-shadow: 0px 0px 5px #999;
+  padding: 30px;
+}

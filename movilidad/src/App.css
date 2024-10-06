@@ -38,8 +38,11 @@
 .profile {
   background: #fff;
   border-radius: 20px;
-  min-height: 100vh;
+  min-height: 80vh;
   margin-top: calc(-30vh + 60px);
   box-shadow: 0px 0px 5px #999;
   padding: 30px;
+  .row+button{
+    margin-top: 20px;
+  }
 }

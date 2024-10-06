@@ -1,3 +1,4 @@
+//Pie de la página
 export default function Footer(){
     return(
         <>

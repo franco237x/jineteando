@@ -1,3 +1,4 @@
+//Botón para escanear el QR de la bicicleta
 const clickCamera = ()=>{
     alert("Abrir cámara")
 }

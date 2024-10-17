@@ -1,5 +1,3 @@
-Claro, aquí tienes un borrador para el archivo README.md de tu proyecto "Movilidad-sustentable":
-
 ```markdown
 # Proyecto de Movilidad Urbana Sostenible
 

@@ -1,10 +1,10 @@
 {
   "name": "movilidad",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  
   "scripts": {
+    "start": "node app.js",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
-    "express": "^4.21.1",
+    "express": "^4.17.1",
     "leaflet": "^1.9.4",
-    "mongoose": "^8.7.1",
+    "mongoose": "^5.11.15",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-leaflet": "^4.2.1",

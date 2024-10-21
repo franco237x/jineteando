@@ -1,5 +1,3 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
 import { createRoot } from 'react-dom/client';
 import { Auth0Provider } from '@auth0/auth0-react';
 import App from './App';
@@ -13,9 +11,7 @@ root.render(
     authorizationParams={{
       redirect_uri: window.location.origin
     }}
-  > 
-    <LoginButton/> {/* Usa el componente de inicio de sesión */}
-    <LogoutButton/> {/* Usa el componente de inicio de sesión */}
+  >
     <App />
   </Auth0Provider>,
 );

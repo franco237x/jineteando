@@ -1,4 +1,4 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Menu from './Components/Menu'
@@ -7,10 +7,9 @@ import Bikes from './Pages/Bikes'
 import NotFound from './Pages/NotFound'
 import Perfil from './Pages/Perfil'
 import Helpme from './Pages/Helpme'
-import Auth0 from '../Index'
 
 function App() {
-
+ 
   return (
     <>
       <Router>
@@ -23,7 +22,6 @@ function App() {
           <Route path="/Helpme" element={<Helpme />} />
         </Routes>
       </Router>
-
     </>
   )
 }

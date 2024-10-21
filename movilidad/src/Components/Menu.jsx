@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+
+
 export default function Menu() {
   return (
     <>
@@ -25,7 +27,12 @@ export default function Menu() {
                 <NavLink className="nav-link" to="/perfil">Perfil</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Helpme">Asi Funciona</NavLink></li>
+                <NavLink className="nav-link" to="/Helpme">Asi Funciona</NavLink>
+              </li>
+              <li className="nav-item">
+                
+              </li>
+              
               <li className="nav-item dropdown">
                 <NavLink
                   className="nav-link dropdown-toggle"

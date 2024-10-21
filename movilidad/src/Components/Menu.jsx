@@ -1,5 +1,7 @@
-import { NavLink } from "react-router-dom";
-
+import { NavLink } from "react-router-dom"
+import LoginButton from "./login"
+import LogoutButton from "./logout"
+import Profile from "./profile"
 
 export default function Menu() {
   return (
@@ -30,7 +32,7 @@ export default function Menu() {
                 <NavLink className="nav-link" to="/Helpme">Asi Funciona</NavLink>
               </li>
               <li className="nav-item">
-                
+              <LoginButton /> <LogoutButton /> <Profile />
               </li>
               
               <li className="nav-item dropdown">

@@ -6,6 +6,8 @@ import Home from './Pages/Home'
 import Bikes from './Pages/Bikes'
 import NotFound from './Pages/NotFound'
 import Perfil from './Pages/Perfil'
+import Helpme from './Pages/Helpme'
+import Auth0 from '../Index'
 
 function App() {
 
@@ -18,6 +20,7 @@ function App() {
           <Route path="/bikes" element={<Bikes />} />
           <Route path="/perfil" element={<Perfil />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/Helpme" element={<Helpme />} />
         </Routes>
       </Router>
 

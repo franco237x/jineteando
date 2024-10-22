@@ -2,8 +2,10 @@ import { NavLink } from "react-router-dom"
 import LoginButton from "./login"
 import LogoutButton from "./logout"
 import Profile from "./profile"
+import { useAuth0 } from "@auth0/auth0-react";
 
-export default function Menu() {
+const Menu = () => {
+  const { isAuthenticated } = useAuth0();
   return (
     <>
       <nav className="navbar navbar-expand-lg fixed-top bg-body-tertiary" data-bs-theme="light">
@@ -32,9 +34,9 @@ export default function Menu() {
                 <NavLink className="nav-link" to="/Helpme">Asi Funciona</NavLink>
               </li>
               <li className="nav-item">
-              <LoginButton /> <LogoutButton /> <Profile />
+                <LoginButton></LoginButton><LogoutButton></LogoutButton>
               </li>
-              
+
               <li className="nav-item dropdown">
                 <NavLink
                   className="nav-link dropdown-toggle"
@@ -58,3 +60,4 @@ export default function Menu() {
     </>
   );
 }
+export default Menu;

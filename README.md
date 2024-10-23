@@ -1,4 +1,3 @@
-```markdown
 # Proyecto de Movilidad Urbana Sostenible
 
 ## Descripción

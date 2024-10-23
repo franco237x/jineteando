@@ -30,10 +30,10 @@ Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
    ```bash
    npm install
    ```
-
-4. Inicia la aplicación:
+4. Inicia la aplicación con 2 Terminales distintas: "1 para el Back y otra para el front"
    ```bash
    npm start
+   npm run dev
    ```
 
 ## Contribuciones

@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import VehiculoEnPerfil from "../Components/vehiculoEnPerfil";
+import VehiculoEnPerfil from "../Components/VehiculoEnPerfil";
 
 export default function Perfil(){
     return(

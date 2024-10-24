@@ -8,8 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "test-setup": "npm run dev"
+    "preview": "vite preview"
   },
   "engines": {
     "node": "20.18.0"

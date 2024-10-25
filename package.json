@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
+    "axios": "^1.7.7",
     "express": "^4.17.1",
+    "express-oauth2-jwt-bearer": "^1.6.0",
     "leaflet": "^1.9.4",
     "mongoose": "^5.11.15",
     "react": "^18.3.1",

@@ -5,6 +5,8 @@ import Profile from "./profile"
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Menu = () => {
+  const { isAuthenticated } = useAuth0();
+
   return (
     <>
       <nav className="navbar navbar-expand-lg fixed-top bg-body-tertiary" data-bs-theme="light">
@@ -33,7 +35,8 @@ const Menu = () => {
                 <NavLink className="nav-link" to="/Helpme">Asi Funciona</NavLink>
               </li>
               <li className="nav-item">
-                <LoginButton></LoginButton><LogoutButton></LogoutButton>
+                {!isAuthenticated && <LoginButton />}
+                <LogoutButton />
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/profile">Nonmbre </NavLink>

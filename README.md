@@ -29,6 +29,10 @@ Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
    ```bash
    npm run dev
    ```
+5. Abrir otra terminal y ejecutar:
+   ```bash
+   npm start
+   ```
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si tienes alguna idea o mejora, por favor abre un issue o envía un pull request.

@@ -34,14 +34,6 @@ const Menu = () => {
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Helpme">Asi Funciona</NavLink>
               </li>
-              <li className="nav-item">
-                {!isAuthenticated && <LoginButton />}
-                <LogoutButton />
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/profile">Nonmbre </NavLink>
-                <Profile />
-              </li>
               <li className="nav-item dropdown">
                 <NavLink
                   className="nav-link dropdown-toggle"
@@ -58,6 +50,12 @@ const Menu = () => {
                   <li><NavLink className="dropdown-item" to="/logout">Cerrar Sesión</NavLink></li>
                 </ul>
               </li>
+            </ul>
+            <ul className="nav navbar-nav ms-auto">
+            <li className="nav-item">
+                {!isAuthenticated && <LoginButton />}
+                <LogoutButton />
+            </li>
             </ul>
           </div>
         </div>

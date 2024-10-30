@@ -24,8 +24,6 @@ function App() {
           <Route path="/perfil" element={<Perfil />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/Helpme" element={<Helpme />} />
-          <Route path="/login" element={<LoginButton />} />
-          <Route path="/logout" element={<LogoutButton />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>
       </Router>

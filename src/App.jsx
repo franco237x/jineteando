@@ -8,19 +8,23 @@ import Perfil from './Pages/Perfil';
 import Helpme from './Pages/Helpme';
 import LoginButton from './Components/login';
 import LogoutButton from './Components/logout';
+import Profile from './Components/profile';
 import { useAuth0 } from '@auth0/auth0-react';
 
 function App() {
-  const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
+  const { isAuthenticated } = useAuth0();
 
   return (
     <Router>
       <Menu />
       <div>
         {!isAuthenticated ? (
-          <LoginButton onClick={() => loginWithRedirect()} />
+          <LoginButton />
         ) : (
-          <LogoutButton onClick={() => logout({ returnTo: window.location.origin })} />
+          <>
+            <LogoutButton />
+            <Profile />
+          </>
         )}
       </div>
       <Routes>
@@ -35,3 +39,4 @@ function App() {
 }
 
 export default App;
+
